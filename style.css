@@ -168,16 +168,31 @@ form {
 	margin: 40px auto;
 }
 
-form label {
+form label, form p {
 
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
-form input{
+
+.formulario{
 
 	display: block;
 	margin: 0 0 20px;
 	padding: 20px;
 	width: 59%;
 }
+
+.checkbox {
+		
+	margin: 20px 0;
+
+}
+
+.enviar-formulario {
+
+	margin: 20px 0;
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+}	
