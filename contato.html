@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
 		<title>Contato - Barbearia Alura</title>
 
 		<link rel="stylesheet" href="reset.css">
@@ -22,8 +24,7 @@
 				</nav>
 			</div>
 		</header>
-
-		<main>
+		<main class="formulario">
 			<form>
 				<label for="nomesobrenome">Nome e sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -61,22 +62,24 @@
 			</form>
 
 			<table>
-				<tr>
-					<td>Dia</td>
-					<td>Horário</td>
-				</tr>
-				<tr>
-					<td>Segunda</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Quarta</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Sexta</td>
-					<td>8h ~ 20h</td>
-				</tr>
+				<thead>
+					<th>Dia</th>
+					<th>Horário</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
 			</table>
 		</main>
 
